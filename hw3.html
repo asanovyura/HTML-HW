@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>HomeWork3</title>
+</head>
+<body>
+    <h1>Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.</h1>
+    <button>Выполнить</button>
+    <script>
+        let button = document.querySelector("button");
+        button.addEventListener("click", function() {
+            const username = (prompt("Введите имя пользователя"));
+            alert("Приветствую, " + username);
+        })
+    </script>
+</body>
+</html>
